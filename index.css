@@ -1,0 +1,38 @@
+p:nth-child(3) {
+    color: skyblue;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.h2 {
+    text-transform: uppercase;
+}
+
+.languages {
+    background-color: green;
+}
+
+[type='a'] li {
+    border: 1px solid lightskyblue;
+}
+
+img+ul {
+    list-style-type: none;
+}
+
+section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+section>ul>li {
+    letter-spacing: 1em;
+}
